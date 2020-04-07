@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import { connect } from 'react-redux'
 import './Video.scss'
 import YouTube from './YouTube'
@@ -18,6 +18,7 @@ export const Video = ({ video, videos, playingVideo, removeVideo, editVideo, pla
   const canMove = videos.length > 1
   const isPlaying = playingVideo.id === video.id
   const className = 'video' + (isPlaying ? ' video--active' : '')
+  const container = useRef(null)
 
   const setVideoVolume = volume => {
     if (player) {
@@ -132,6 +133,10 @@ export const Video = ({ video, videos, playingVideo, removeVideo, editVideo, pla
         player.playVideo()
 
         document.title = title + ' YouTube Loop in React Redux'
+        container.current.scrollIntoView({
+          behavior: 'smooth',
+          block: 'center'
+        })
       } else {
         player.pauseVideo()
         document.title = 'YouTube Loop in React Redux'
@@ -140,7 +145,7 @@ export const Video = ({ video, videos, playingVideo, removeVideo, editVideo, pla
   }, [player, isPlaying, title, playingStateChanged, video.volume, video.range])
 
   return (
-    <div className={className}>
+    <div ref={container} className={className}>
       <div className="video__player">
         <YouTube youtubeId={video.youtubeId} onReady={onVideoLoaded} onPlaying={onPlaying} onPaused={onPaused} onEnded={onEnded} onError={onError} />
       </div>
