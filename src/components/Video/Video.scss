@@ -5,7 +5,12 @@
   grid-template-columns: auto min-content;
   margin-bottom: 3rem;
   width: 100%;
-  max-width: 660px;
+  max-width: 400px;
+  transition: max-width $transition-duration $transition-animation;
+
+  &--active {
+    max-width: 640px;
+  }
 }
 
 .video__player {

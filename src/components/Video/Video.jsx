@@ -17,6 +17,7 @@ export const Video = ({ video, videos, playingVideo, removeVideo, editVideo, pla
 
   const canMove = videos.length > 1
   const isPlaying = playingVideo.id === video.id
+  const className = 'video' + (isPlaying ? ' video--active' : '')
 
   const setVideoVolume = volume => {
     if (player) {
@@ -139,7 +140,7 @@ export const Video = ({ video, videos, playingVideo, removeVideo, editVideo, pla
   }, [player, isPlaying, title, playingStateChanged, video.volume, video.range])
 
   return (
-    <div className="video">
+    <div className={className}>
       <div className="video__player">
         <YouTube youtubeId={video.youtubeId} onReady={onVideoLoaded} onPlaying={onPlaying} onPaused={onPaused} onEnded={onEnded} onError={onError} />
       </div>
