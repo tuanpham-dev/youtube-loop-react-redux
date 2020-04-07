@@ -107,7 +107,7 @@ export default (state = initialState, { type, payload }) => {
             }
           } else {
             playingVideo = {
-              id: state.videos[index === 0 ? state.videos.length - 1 : index - 1].id
+              id: state.videos[index === state.videos.length - 1 ? 0 : index + 1].id
             }
           }
         }
