@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f973f007bae7cb6e6bcda4b4f08686f",
+    "revision": "3ce2790183afae10bc6f42bbc49e2192",
     "url": "/youtube-loop-react-redux/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/youtube-loop-react-redux/static/css/2.77b93774.chunk.css"
   },
   {
-    "revision": "2fe343c51a986fa8a492",
-    "url": "/youtube-loop-react-redux/static/css/main.d83608a1.chunk.css"
+    "revision": "a3646d107c731e78b5cb",
+    "url": "/youtube-loop-react-redux/static/css/main.46ae43d3.chunk.css"
   },
   {
     "revision": "97eb74838f8b92b2ceaf",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/youtube-loop-react-redux/static/js/2.c5b109bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "2fe343c51a986fa8a492",
-    "url": "/youtube-loop-react-redux/static/js/main.abb23c20.chunk.js"
+    "revision": "a3646d107c731e78b5cb",
+    "url": "/youtube-loop-react-redux/static/js/main.99ecd272.chunk.js"
   },
   {
     "revision": "25a14559fa4375a79144",
