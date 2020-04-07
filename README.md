@@ -1,3 +1,24 @@
+# YouTube Loop in React Redux
+Repeat YouTube videos. Demo: https://tuanpham-dev.github.io/youtube-loop-react-redux/
+
+![youtube-loop-react-redux](https://raw.githubusercontent.com/tuanpham-dev/youtube-loop-react-redux/master/screenshot.png)
+
+## Features
+- ✅ Add video to the list
+- ✅ Remove video
+- ✅ Play first video
+- ✅ Play previous video
+- ✅ Play next video
+- ✅ Play next video when current video is ended
+- ✅ Play first video when last video is ended
+- ✅ Save the list to local storage for future sessions
+- ✅ Sort videos in the list
+- ✅ Drag & drop to sort video
+- ✅ Configure volume for each video
+- ✅ Configure start and end range for each video
+- ❌ Prevent videos from rerendering while sorting video
+- ❌ Play videos when tab is inactive
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
