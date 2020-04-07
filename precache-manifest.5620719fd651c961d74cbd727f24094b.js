@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3ce2790183afae10bc6f42bbc49e2192",
+    "revision": "4e597231383db98a534b912cc3ebaf48",
     "url": "/youtube-loop-react-redux/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/youtube-loop-react-redux/static/css/2.77b93774.chunk.css"
   },
   {
-    "revision": "a3646d107c731e78b5cb",
+    "revision": "e9418e32f347c3ecbe73",
     "url": "/youtube-loop-react-redux/static/css/main.46ae43d3.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/youtube-loop-react-redux/static/js/2.c5b109bf.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3646d107c731e78b5cb",
-    "url": "/youtube-loop-react-redux/static/js/main.99ecd272.chunk.js"
+    "revision": "e9418e32f347c3ecbe73",
+    "url": "/youtube-loop-react-redux/static/js/main.0e8fac38.chunk.js"
   },
   {
     "revision": "25a14559fa4375a79144",
